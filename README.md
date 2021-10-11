@@ -55,9 +55,9 @@ and compute their support and confidence. Note that the support of all these rul
 `R, support_percentage, confidence, item_4, item_5, ..., ’=>’, item_6, item_7, ...  `  
 > to denote that this is an association **r**ule. The keys "S" and "R" are verbatim and no other substitution is needed. 
 > It should be noted that the items listed in the frequent itemset case (item 1, item 2, item 3, ...) should be in lexicographic order, the items listed to the left of the => sign in the association rule case (item 4, item 5, ...) should be in lexicographic order and so should the items listed in the right size of the => sign in the association rule case (item 6, item 7, ...).  
-> The `support_percentage` should be the support percentage (expressed as a floating number between 0 and 1 with 4 decimal points) for the specific frequent itemset or for the specific association rule (and both should be above the user-specified min_support_percentage).  
-> The `confidence` should be the confidence percentage (expressed as a floating number between 0 and 1 with 4 decimal points) for the specific association rule (and should be above the user-specified min_confidence).  
-> You should list in the output file all the frequent itemsets that you discover in the input file (S) and all the association rules that you can generate using the A-Priori method (R), that satisfy the min support percentage and min confidence requirements.  
+> The `support_percentage` is the support percentage (expressed as a floating number between 0 and 1 with 4 decimal points) for the specific frequent itemset or for the specific association rule (and both should be above the user-specified min_support_percentage).  
+> The `confidence` is the confidence percentage (expressed as a floating number between 0 and 1 with 4 decimal points) for the specific association rule (and should be above the user-specified min_confidence).  
+> I list in the output file all the frequent itemsets that you discover in the input file (S) and all the association rules that I can generate using the A-Priori method (R), that satisfy the min support percentage and min confidence requirements.  
 >
 > Here’s an example output file:
 ```
